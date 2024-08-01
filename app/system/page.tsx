@@ -1,7 +1,7 @@
-export default function Systems() {
-  return (
-    <div>
-      <h1>Systems Page</h1>
-    </div>
-  )
-}
+import NotFoundPage from '../not-found';
+
+const SystemPage = () => {
+  return <NotFoundPage />;
+};
+
+export default SystemPage;

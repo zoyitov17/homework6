@@ -1,7 +1,9 @@
+"use client";
+
 import NotFoundPage from '../not-found';
 
-const ServicesPage = () => {
+const NotFound = () => {
   return <NotFoundPage />;
 };
 
-export default ServicesPage;
+export default NotFound;
